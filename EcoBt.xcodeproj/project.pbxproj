@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B2BF1718EB84AD00696533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B2BF1618EB84AD00696533 /* Foundation.framework */; };
+		49B2BF1918EB84AE00696533 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B2BF1818EB84AD00696533 /* CoreGraphics.framework */; };
+		49B2BF1B18EB84AE00696533 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B2BF1A18EB84AE00696533 /* UIKit.framework */; };
+		49B2BF2118EB84AE00696533 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B2BF1F18EB84AE00696533 /* InfoPlist.strings */; };
+		49B2BF2318EB84AE00696533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B2BF2218EB84AE00696533 /* main.m */; };
+		49B2BF2718EB84AE00696533 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B2BF2618EB84AE00696533 /* AppDelegate.m */; };
+		49B2BF2A18EB84AE00696533 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B2BF2918EB84AE00696533 /* RootViewController.m */; };
+		49B2BF2D18EB84AE00696533 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B2BF2C18EB84AE00696533 /* DataViewController.m */; };
+		49B2BF3018EB84AE00696533 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B2BF2F18EB84AE00696533 /* ModelController.m */; };
+		49B2BF3318EB84AE00696533 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B2BF3118EB84AE00696533 /* Main_iPhone.storyboard */; };
+		49B2BF3618EB84AE00696533 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B2BF3418EB84AE00696533 /* Main_iPad.storyboard */; };
+		49B2BF3818EB84AE00696533 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B2BF3718EB84AE00696533 /* Images.xcassets */; };
+		49B2BF3F18EB84AE00696533 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B2BF3E18EB84AE00696533 /* XCTest.framework */; };
+		49B2BF4018EB84AE00696533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B2BF1618EB84AD00696533 /* Foundation.framework */; };
+		49B2BF4118EB84AE00696533 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B2BF1A18EB84AE00696533 /* UIKit.framework */; };
+		49B2BF4918EB84AE00696533 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B2BF4718EB84AE00696533 /* InfoPlist.strings */; };
+		49B2BF4B18EB84AE00696533 /* EcoBtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B2BF4A18EB84AE00696533 /* EcoBtTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49B2BF4218EB84AE00696533 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B2BF0B18EB84AD00696533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B2BF1218EB84AD00696533;
+			remoteInfo = EcoBt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49B2BF1318EB84AD00696533 /* EcoBt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoBt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B2BF1618EB84AD00696533 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49B2BF1818EB84AD00696533 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49B2BF1A18EB84AE00696533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49B2BF1E18EB84AE00696533 /* EcoBt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EcoBt-Info.plist"; sourceTree = "<group>"; };
+		49B2BF2018EB84AE00696533 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49B2BF2218EB84AE00696533 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49B2BF2418EB84AE00696533 /* EcoBt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EcoBt-Prefix.pch"; sourceTree = "<group>"; };
+		49B2BF2518EB84AE00696533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49B2BF2618EB84AE00696533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49B2BF2818EB84AE00696533 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		49B2BF2918EB84AE00696533 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		49B2BF2B18EB84AE00696533 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		49B2BF2C18EB84AE00696533 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		49B2BF2E18EB84AE00696533 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		49B2BF2F18EB84AE00696533 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		49B2BF3218EB84AE00696533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		49B2BF3518EB84AE00696533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		49B2BF3718EB84AE00696533 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49B2BF3D18EB84AE00696533 /* EcoBtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoBtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B2BF3E18EB84AE00696533 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		49B2BF4618EB84AE00696533 /* EcoBtTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EcoBtTests-Info.plist"; sourceTree = "<group>"; };
+		49B2BF4818EB84AE00696533 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49B2BF4A18EB84AE00696533 /* EcoBtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcoBtTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49B2BF1018EB84AD00696533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B2BF1918EB84AE00696533 /* CoreGraphics.framework in Frameworks */,
+				49B2BF1B18EB84AE00696533 /* UIKit.framework in Frameworks */,
+				49B2BF1718EB84AD00696533 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B2BF3A18EB84AE00696533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B2BF3F18EB84AE00696533 /* XCTest.framework in Frameworks */,
+				49B2BF4118EB84AE00696533 /* UIKit.framework in Frameworks */,
+				49B2BF4018EB84AE00696533 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49B2BF0A18EB84AD00696533 = {
+			isa = PBXGroup;
+			children = (
+				49B2BF1C18EB84AE00696533 /* EcoBt */,
+				49B2BF4418EB84AE00696533 /* EcoBtTests */,
+				49B2BF1518EB84AD00696533 /* Frameworks */,
+				49B2BF1418EB84AD00696533 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49B2BF1418EB84AD00696533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49B2BF1318EB84AD00696533 /* EcoBt.app */,
+				49B2BF3D18EB84AE00696533 /* EcoBtTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49B2BF1518EB84AD00696533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49B2BF1618EB84AD00696533 /* Foundation.framework */,
+				49B2BF1818EB84AD00696533 /* CoreGraphics.framework */,
+				49B2BF1A18EB84AE00696533 /* UIKit.framework */,
+				49B2BF3E18EB84AE00696533 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49B2BF1C18EB84AE00696533 /* EcoBt */ = {
+			isa = PBXGroup;
+			children = (
+				49B2BF2518EB84AE00696533 /* AppDelegate.h */,
+				49B2BF2618EB84AE00696533 /* AppDelegate.m */,
+				49B2BF2818EB84AE00696533 /* RootViewController.h */,
+				49B2BF2918EB84AE00696533 /* RootViewController.m */,
+				49B2BF2B18EB84AE00696533 /* DataViewController.h */,
+				49B2BF2C18EB84AE00696533 /* DataViewController.m */,
+				49B2BF2E18EB84AE00696533 /* ModelController.h */,
+				49B2BF2F18EB84AE00696533 /* ModelController.m */,
+				49B2BF3118EB84AE00696533 /* Main_iPhone.storyboard */,
+				49B2BF3418EB84AE00696533 /* Main_iPad.storyboard */,
+				49B2BF3718EB84AE00696533 /* Images.xcassets */,
+				49B2BF1D18EB84AE00696533 /* Supporting Files */,
+			);
+			path = EcoBt;
+			sourceTree = "<group>";
+		};
+		49B2BF1D18EB84AE00696533 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49B2BF1E18EB84AE00696533 /* EcoBt-Info.plist */,
+				49B2BF1F18EB84AE00696533 /* InfoPlist.strings */,
+				49B2BF2218EB84AE00696533 /* main.m */,
+				49B2BF2418EB84AE00696533 /* EcoBt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49B2BF4418EB84AE00696533 /* EcoBtTests */ = {
+			isa = PBXGroup;
+			children = (
+				49B2BF4A18EB84AE00696533 /* EcoBtTests.m */,
+				49B2BF4518EB84AE00696533 /* Supporting Files */,
+			);
+			path = EcoBtTests;
+			sourceTree = "<group>";
+		};
+		49B2BF4518EB84AE00696533 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49B2BF4618EB84AE00696533 /* EcoBtTests-Info.plist */,
+				49B2BF4718EB84AE00696533 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49B2BF1218EB84AD00696533 /* EcoBt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B2BF4E18EB84AE00696533 /* Build configuration list for PBXNativeTarget "EcoBt" */;
+			buildPhases = (
+				49B2BF0F18EB84AD00696533 /* Sources */,
+				49B2BF1018EB84AD00696533 /* Frameworks */,
+				49B2BF1118EB84AD00696533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoBt;
+			productName = EcoBt;
+			productReference = 49B2BF1318EB84AD00696533 /* EcoBt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49B2BF3C18EB84AE00696533 /* EcoBtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B2BF5118EB84AE00696533 /* Build configuration list for PBXNativeTarget "EcoBtTests" */;
+			buildPhases = (
+				49B2BF3918EB84AE00696533 /* Sources */,
+				49B2BF3A18EB84AE00696533 /* Frameworks */,
+				49B2BF3B18EB84AE00696533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B2BF4318EB84AE00696533 /* PBXTargetDependency */,
+			);
+			name = EcoBtTests;
+			productName = EcoBtTests;
+			productReference = 49B2BF3D18EB84AE00696533 /* EcoBtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49B2BF0B18EB84AD00696533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___Derrick_Lo___";
+				TargetAttributes = {
+					49B2BF3C18EB84AE00696533 = {
+						TestTargetID = 49B2BF1218EB84AD00696533;
+					};
+				};
+			};
+			buildConfigurationList = 49B2BF0E18EB84AD00696533 /* Build configuration list for PBXProject "EcoBt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49B2BF0A18EB84AD00696533;
+			productRefGroup = 49B2BF1418EB84AD00696533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49B2BF1218EB84AD00696533 /* EcoBt */,
+				49B2BF3C18EB84AE00696533 /* EcoBtTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49B2BF1118EB84AD00696533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B2BF3618EB84AE00696533 /* Main_iPad.storyboard in Resources */,
+				49B2BF3818EB84AE00696533 /* Images.xcassets in Resources */,
+				49B2BF3318EB84AE00696533 /* Main_iPhone.storyboard in Resources */,
+				49B2BF2118EB84AE00696533 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B2BF3B18EB84AE00696533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B2BF4918EB84AE00696533 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B2BF0F18EB84AD00696533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B2BF2D18EB84AE00696533 /* DataViewController.m in Sources */,
+				49B2BF2718EB84AE00696533 /* AppDelegate.m in Sources */,
+				49B2BF3018EB84AE00696533 /* ModelController.m in Sources */,
+				49B2BF2318EB84AE00696533 /* main.m in Sources */,
+				49B2BF2A18EB84AE00696533 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B2BF3918EB84AE00696533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B2BF4B18EB84AE00696533 /* EcoBtTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49B2BF4318EB84AE00696533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B2BF1218EB84AD00696533 /* EcoBt */;
+			targetProxy = 49B2BF4218EB84AE00696533 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49B2BF1F18EB84AE00696533 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B2BF2018EB84AE00696533 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49B2BF3118EB84AE00696533 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B2BF3218EB84AE00696533 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		49B2BF3418EB84AE00696533 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B2BF3518EB84AE00696533 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		49B2BF4718EB84AE00696533 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B2BF4818EB84AE00696533 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49B2BF4C18EB84AE00696533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49B2BF4D18EB84AE00696533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49B2BF4F18EB84AE00696533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EcoBt/EcoBt-Prefix.pch";
+				INFOPLIST_FILE = "EcoBt/EcoBt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49B2BF5018EB84AE00696533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EcoBt/EcoBt-Prefix.pch";
+				INFOPLIST_FILE = "EcoBt/EcoBt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49B2BF5218EB84AE00696533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EcoBt.app/EcoBt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EcoBt/EcoBt-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EcoBtTests/EcoBtTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		49B2BF5318EB84AE00696533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EcoBt.app/EcoBt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EcoBt/EcoBt-Prefix.pch";
+				INFOPLIST_FILE = "EcoBtTests/EcoBtTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49B2BF0E18EB84AD00696533 /* Build configuration list for PBXProject "EcoBt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B2BF4C18EB84AE00696533 /* Debug */,
+				49B2BF4D18EB84AE00696533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B2BF4E18EB84AE00696533 /* Build configuration list for PBXNativeTarget "EcoBt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B2BF4F18EB84AE00696533 /* Debug */,
+				49B2BF5018EB84AE00696533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49B2BF5118EB84AE00696533 /* Build configuration list for PBXNativeTarget "EcoBtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B2BF5218EB84AE00696533 /* Debug */,
+				49B2BF5318EB84AE00696533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49B2BF0B18EB84AD00696533 /* Project object */;
+}
